@@ -1,0 +1,17 @@
+header div div{
+    background-color: #00ffff;
+    margin: auto;
+    height: 120px;
+    width: 30%;
+    text-align: center;
+}
+header div{
+    background-color: black;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
