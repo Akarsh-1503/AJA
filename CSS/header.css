@@ -1,0 +1,47 @@
+.menu{
+    background-color: #00ffff; 
+    margin: auto;
+    height: 120px;
+    width: 30%;
+    text-align: center;
+}
+.contact{
+    background-color: #00ffff; 
+    margin: auto;
+    height: 120px;
+    width: 30%;
+    text-align: center;
+}
+header{
+    position: fixed;
+    height:130px;
+    width: 100%;
+}
+
+.logo{
+    background-image: url("./images/Work2Gether-logo-new.jpg");
+    background-color: #00ffff; 
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 30%;
+    transition: width 2s, height 4s;
+
+}
+.logo:hover{
+    width: 200px;
+    height: 400px;
+
+}
+
+header div{
+    background-color: black;
+    display: flex;
+    
+    height:130px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}

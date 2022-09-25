@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    background-color: aquamarine;
+    height: fit-content;
+}
+.header-filler{
+    height:130px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+
+}
+.divide{
+    background-color: grey;
+    height : 10px;
+}
+
+.offer{
+    background-color: red;
+    height : 200px;
+}
+.feedback{
+    background-color: orange;
+    height : 100px;
+}
+.why-us{
+    background-color: yellow;
+    height : 100px;
+}
+.photos{
+    background-color: green;
+    height : 300px;
+}
+.videos{
+    background-color: lightblue;
+    height : 200px;
+}
+.apply{
+    background-color: rgb(244, 28, 208);
+    height : 80px;
+}
+.ending{
+    background-color: purple;
+    height : 100px;
+}
