@@ -1,17 +1,95 @@
-header div div{
-    background-color: #00ffff;
+.menu{
+    background-color: #00ffff; 
     margin: auto;
     height: 120px;
     width: 30%;
     text-align: center;
 }
+.contact{
+    background-color: #00ffff; 
+    margin: auto;
+    height: 120px;
+    width: 30%;
+    text-align: center;
+}
+header{
+    position: fixed;
+    height:130px;
+    width: 100%;
+}
+
+.logo{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/19/09/01/india-flag-twirl-2657762_960_720.jpg");
+    background-color: #00ffff; 
+    background-size: 100px;
+    background-repeat: repeat;
+    height: 120px;
+    width: 30%;
+    transition: width 2s, height 4s;
+
+}
+.logo:hover{
+    width: 200px;
+    height: 400px;
+
+}
+
 header div{
     background-color: black;
     display: flex;
+    
+    height:130px;
+    width: 100%;
     margin: auto;
     padding: 5px;
     text-align: center;
 }
 body{
     margin: 0px;
+}
+
+.container{
+    background-color: aquamarine;
+    height: fit-content;
+}
+.filler{
+    height:130px;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+
+}
+.divide{
+    background-color: grey;
+    height : 10px;
+}
+
+.offer{
+    background-color: red;
+    height : 200px;
+}
+.feedback{
+    background-color: orange;
+    height : 100px;
+}
+.why-us{
+    background-color: yellow;
+    height : 100px;
+}
+.photos{
+    background-color: green;
+    height : 300px;
+}
+.videos{
+    background-color: lightblue;
+    height : 200px;
+}
+.apply{
+    background-color: rgb(244, 28, 208);
+    height : 80px;
+}
+.ending{
+    background-color: purple;
+    height : 100px;
 }
